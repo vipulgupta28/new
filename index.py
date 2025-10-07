@@ -4,7 +4,7 @@ from instaloader import Instaloader, Post
 
 app = Flask(__name__)
 L = Instaloader()
-L.load_session_from_file("beyyond_code")
+L.load_session_from_file("session-beyyond_code")
 
 
 @app.route("/get_reel_stats", methods=["POST"])
